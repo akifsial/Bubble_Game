@@ -1,0 +1,147 @@
+@media screen and (max-width:1200px) {
+    
+    .element .smallbox{
+        background-color: rgb(255, 255, 255);
+        padding: 3px 20px;
+        height: 5vh;
+        color: black;
+        border-radius: 5px;
+       
+    }
+
+
+}
+
+@media screen and (max-width:900px){
+    .bubble{
+        width: 4vw;
+        height: 6vh;
+        font-size: 2vw;
+    }
+
+}
+
+
+@media screen and (max-width:700px){
+
+    .bubble{
+        width: 5vw;
+        height: 5.9vh;
+        font-size: 2.2vw;
+    }
+
+}
+
+@media screen and (max-width:500px){
+
+    .bubble{
+        width: 9vw;
+        height: 5.9vh;
+        font-size: 2.5vw;
+    }
+
+}
+
+@media screen and (max-width:450px){
+
+    .bubble{
+        width: 12vw;
+        height: 5.9vh;
+        font-size: 4vw;
+    }
+
+    .element{
+        display: flex;
+        gap: 10px;
+        
+    }
+
+    .element .smallbox{
+        background-color: rgb(255, 255, 255);
+        padding: 0.7px 20px;
+        height: 2.6vh;
+        color: black;
+        border-radius: 5px;
+        font-size: 2.7vw;
+        font-weight: 700;
+       
+    }
+
+    .element h4{
+        font-size: 2.6vw;
+    }
+    
+    .tpanel{
+        height: 90px;
+        width: 100%;
+        background-color: rgb(16, 78, 8,0.4);
+        display: flex;
+        justify-content: space-between;
+        padding: 5vh 5vw;
+        color: white;
+
+
+}
+
+}
+
+@media screen and (max-width:350px){
+    
+    .bubble{
+        width: 12vw;
+        height: 5.9vh;
+        font-size: 3.8vw;
+    }
+
+
+}
+
+@media screen and (max-width:330px){
+
+    .element h4{
+        font-size: 2.5vw;
+    }
+
+    .element{
+        display: flex;
+        gap: 7px;
+        
+    }
+
+    .element .smallbox{
+        background-color: rgb(255, 255, 255);
+        padding: 0.9px 15px;
+        height: 2.3vh;
+        color: black;
+        border-radius: 5px;
+        font-size: 3.4vw;
+        font-weight: 700;
+       
+    }
+
+    .bubble{
+        width: 12vw;
+        height: 5.9vh;
+        font-size: 4vw;
+    }
+
+
+
+}
+
+@media screen and (min-width:1201px){
+    .bubble{  
+        width: 6vw;
+        height: 10vh;
+        font-size: 1.6vw;
+        font-weight: 500; 
+    }
+
+    .element .smallbox{
+        
+        padding: 0.2vh 2vw;
+        height: 4.5vh
+
+    }
+
+}
